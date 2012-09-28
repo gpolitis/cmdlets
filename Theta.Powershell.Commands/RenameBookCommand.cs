@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 
-namespace RenameBook
+namespace Theta.Powershell.Commands
 {
     [Cmdlet(VerbsCommon.Rename, "Book")]
     public class RenameBookCommand : PSCmdlet
